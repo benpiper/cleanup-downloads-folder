@@ -4,7 +4,7 @@ PowerShell script to clean up your messy Windows folders.
 
 ## Usage
 
-Edit the configuration parameters in <cleanupDownloadsFolder.ps1>.
+Edit the configuration parameters in [cleanupDownloadsFolder](cleanupDownloadsFolder.ps1).
 
 `$mindays = 60`
 
@@ -24,7 +24,7 @@ File extensions to include. To include all files, set `#$extensions = @("*")`
 
 `$paranoid = $false`
 
-Uses `cipher.exe` to wipe free space after deleting files.
+If set to $true, uses `cipher.exe` to wipe free space after deleting files.
 
 `$WhatIfPreference = $true`
 
